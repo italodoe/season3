@@ -1,0 +1,23 @@
+let A = [1, 2, 3, 4, "a", "b", false];
+
+console.log(A);
+
+A[0] = true;
+A[1] = "TRUE";
+console.log(A);
+
+A.push("last");
+console.log(A);
+
+let B = [];
+
+B.push(A);
+console.log(B);
+B.push(A.pop());
+console.log(B);
+console.log(A);
+
+let obj = { name: "object" };
+console.log(Array.isArray(obj));
+console.log(Array.isArray(A));
+console.log(Array.isArray(B));
