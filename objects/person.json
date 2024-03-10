@@ -1,0 +1,17 @@
+{
+    "name": {
+        "title": "Mr",
+        "firstName": "Seymour",
+        "lastName": "Butts"
+    },
+    "dateOfBirth": "1980-01-01",
+    "address": {
+        "houseNumber": 41,
+        "street": "Some street",
+        "city": "Swansea",
+        "timeAtAddress": {
+            "years": 1,
+            "months": 3
+        }
+    }
+}
