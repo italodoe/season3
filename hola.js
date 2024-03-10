@@ -1,8 +1,10 @@
-console.log('hola')
-console.log("HOLA")
+"use strict";
+
+console.log('hola');
+console.log("HOLA");
 try{
     console.log(HOLA)
 
 }catch(e){
-    console.log('--error:', e);
+    console.error('--error:', e);
 }
